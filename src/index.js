@@ -143,12 +143,15 @@
         eqlNum.value = parseFloat(midNum[0].value) - parseFloat(midNum[1].value);
     }
 
+
     function div(){
         if(parseFloat(midNum[1].value) == 0){
             eqlNum.value = "ERROR";
         }else{
             eql.value = parseFloat(midNum[0].value) / parseFloat(midNum[1].value);
         }
+    function mul(){
+        eqlNum.value = parseFloat(midNum[0].value) * parseFloat(midNum[1].value);
     }
 
 	/* 演習の編集範囲 おわり */
